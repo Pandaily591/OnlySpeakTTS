@@ -3,6 +3,11 @@
 This is a TTS server that uses a private fork of tortoise to keep generation times and VRAM usage low.
 If you play the audio while generating, you can get very close to real-time.
 
+You will need to provide your own audio clips.
+Store them in 'Tortoise/tortoise/voices/{voice_name}'
+you will want 2-3x 10 second clips, if it doesn't come out perfect, play around with the parameters.
+If you don't mind mix n' matching, you can include a few other clips that provide accent and dynamic range.
+
 # System Requirements
 Generations can use up to 5 Gigs of VRAM, and I average about 7-8 second generation times for full sentences on an RTX 3090, 3-4 seconds for shorter sentences.
 The 'fast' preset is slightly faster. Quality isn't bad, it's just not as smooth.
