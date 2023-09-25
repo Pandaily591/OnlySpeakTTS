@@ -63,9 +63,11 @@ https://github.com/Pandaily591/OnlySpeakTTS/assets/100230993/b9a2b08c-0202-43f4-
 # Cloning Voices
 
 
+https://github.com/Pandaily591/OnlySpeakTTS/assets/100230993/18fe525b-fb57-408d-8ede-0a15f3753734
 
 
-https://github.com/Pandaily591/OnlySpeakTTS/assets/100230993/2f6ab4c0-9736-42ec-9bbb-284e611caae7
+
+
 
 
 
