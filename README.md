@@ -46,7 +46,10 @@ rich
 
 # Example Video
 
-https://github.com/Pandaily591/OnlySpeakTTS/assets/100230993/3a81e7b0-d4fd-4555-ab3b-448739a86da3
+https://github.com/Pandaily591/OnlySpeakTTS/assets/100230993/49cd83fa-9a89-47fe-b5ba-8c9cda97f2bd
+
+
+
 
 
 
