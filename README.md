@@ -4,7 +4,8 @@ This is a TTS server that uses a private fork of tortoise to keep generation tim
 If you play the audio while generating, you can get very close to real-time.
 
 # System Requirements
-Generations can use up to 5 Gigs of VRAM, and I average about 7-8 second generation times for full sentences on an RTX 3090, 3-4 seconds for shorter sentences
+Generations can use up to 5 Gigs of VRAM, and I average about 7-8 second generation times for full sentences on an RTX 3090, 3-4 seconds for shorter sentences.
+The 'fast' preset is slightly faster. Quality isn't bad, it's just not as smooth.
 
 I Experience no slow-down in generations while running games like Minecraft. I did experience an increase in generation times by 100%~ while maxing my graphics card, playing games like Generation Zero.
 
