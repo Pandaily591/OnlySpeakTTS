@@ -321,8 +321,9 @@ class TextToSpeech:
         diffuser = None
 
         presets = {
+            'quality': {'num_autoregressive_samples': 1, 'diffusion_iterations': 48},
             'standard': {'num_autoregressive_samples': 1, 'diffusion_iterations': 12},
-            'fast': {'num_autoregressive_samples': 1, 'diffusion_iterations': 5},
+            'fast': {'num_autoregressive_samples': 1, 'diffusion_iterations': 6},
         }
         diffusion_iterations = presets[preset]["diffusion_iterations"]
 
@@ -353,11 +354,12 @@ class TextToSpeech:
         # Use generally found best tuning knobs for generation.
         settings = {'temperature': .3, 'length_penalty': -5.0, 'repetition_penalty': 5.0,
                     'top_p': .05,
-                    'cond_free_k': 2.0, 'diffusion_temperature': 0.5}
+                    'cond_free_k': 2.0, 'diffusion_temperature': 1}
         # Presets are defined here.
         presets = {
-            'standard': {'num_autoregressive_samples': 1, 'diffusion_iterations': 8},
-            'fast': {'num_autoregressive_samples': 1, 'diffusion_iterations': 5},
+            'quality': {'num_autoregressive_samples': 1, 'diffusion_iterations': 48},
+            'standard': {'num_autoregressive_samples': 1, 'diffusion_iterations': 12},
+            'fast': {'num_autoregressive_samples': 1, 'diffusion_iterations': 6},
         }
         settings.update(presets[preset])
         settings.update({'voice_samples': voice_samples, 

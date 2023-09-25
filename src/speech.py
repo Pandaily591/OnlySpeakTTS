@@ -301,7 +301,7 @@ class Model():
 
     def generate_speech(self, text, voice, word_count, verbose):#, voice_data, save_rate=25500):
         voice_data = voice
-        save_rate = 27550
+        save_rate = 25500
         auto_conditioning = voice_data[0]
         diffusion_conditioning = voice_data[1]
         auto_conds = voice_data[2]
@@ -313,11 +313,6 @@ class Model():
             word_count=word_count, verbose=verbose)
     
         # Saves the sound to a file called test.wav in the current directory
-        
-        if not os.path.exists("audio"):
-            os.makedirs("audio")
-        if not os.path.exists("audio/wavs"):
-            os.makedirs("audio/wavs")
         new_path = ""
         i = 0
         while os.path.exists("audio/wavs/test%s.wav" % i):
