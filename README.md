@@ -60,6 +60,15 @@ rich
 https://github.com/Pandaily591/OnlySpeakTTS/assets/100230993/b9a2b08c-0202-43f4-b94b-7dd45e4d60c0
 
 
+# Cloning Voices
+
+
+https://github.com/Pandaily591/OnlySpeakTTS/assets/100230993/18fe525b-fb57-408d-8ede-0a15f3753734
+
+
+
+
+
 
 
 
