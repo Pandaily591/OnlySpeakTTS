@@ -15,6 +15,7 @@ The 'fast' preset is slightly faster. Quality isn't bad, it's just not as smooth
 I Experience no slow-down in generations while running games like Minecraft. I did experience an increase in generation times by 100%~ while maxing my graphics card, playing games like Generation Zero.
 
 I Never tested generating speech while inferencing on a text-generation model at the same time, but I assume it will result in slower generation times for both.
+It's perfectly okay to keep the models loaded into VRAM and go back and forth, though.
 
 # What Can This Do?
 Assuming you use the server.py script, all inputs will automatically be seperated into segments that are within tortoise's max range.
