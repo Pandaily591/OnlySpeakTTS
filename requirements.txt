@@ -1,0 +1,8 @@
+colorama
+requests
+soundfile
+wave
+pydub
+threading
+winsound
+rich
