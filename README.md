@@ -77,7 +77,7 @@ https://github.com/Pandaily591/OnlySpeakTTS/assets/100230993/18fe525b-fb57-408d-
 
 
 # Links
-I uploaded a longer example to youtube:
+I uploaded a longer example to youtube (the Lara Croft voice in this video is old):
 
 https://www.youtube.com/watch?v=XV87AE22a6M
 
