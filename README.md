@@ -54,6 +54,13 @@ rich
 
 
 
+# Installation
+You can create a venv, a conda env, or whatever. The original installation instructions for Tortoise still apply, but you may need to manually install setuptools before using the setup.py script
+```
+pip install setuptools
+```
+
+
 # Example Video
 
 
